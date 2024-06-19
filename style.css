@@ -1,0 +1,104 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background-blend-mode: normal, lighten, soft-light;
+}
+
+main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 100%;
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: xxx-large;
+    padding: 40px 10px;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2 {
+    width: 100%;
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: xx-large;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 40px 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#inputName,
+#inputEdad {
+    width: 40%;
+    height: 4%;
+    border-radius: 10px;
+    border: none;
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: large;
+    outline: none;
+    text-align: center;
+}
+
+#bttnNext,
+#bttnNextEdad {
+    width: 30%;
+    height: 4%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: "Playwrite NG Modern";
+    font-weight: bold;
+}
+
+#nameDisplay {
+    font-family: "Playwrite NG Modern";
+    font-size: xx-large;
+    color: black;
+    padding: 10px 5px;
+    font-weight: bold;
+    margin: 0;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nameDisplayEdad {
+    font-family: "Playwrite NG Modern";
+    font-size: x-large;
+    text-align: center;
+    color: black;
+    padding: 10px 5px;
+    font-weight: bold;
+    margin: 0;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#imgNoDrive, #goDrive {
+    border-radius: 10px;
+}
